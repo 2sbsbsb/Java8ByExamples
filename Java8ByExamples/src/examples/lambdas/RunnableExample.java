@@ -1,7 +1,5 @@
 package examples.lambdas;
 
-import java.util.function.Consumer;
-
 /**
  * Comparision of use of Runnable interface in pre-java8 and java8. 
  * @author santoshb
