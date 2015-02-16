@@ -16,6 +16,7 @@ public class ListFilesWithExtension {
 	 * @return
 	 */
 	private static String[] listFilesWithGivenExtensionJava8(File file, String extnsion) {
+		// Using lambda expression 
 		String[] files = file.list((dir,name) -> name.endsWith(extnsion));
 		return files; 
 	}
@@ -25,6 +26,7 @@ public class ListFilesWithExtension {
 	 * @return
 	 */
 	private static String[] listFilesWithGivenExtensionPreJava8(File file, String extnsion) {
+		// Using pre-java8 way. Instantiating FilenameFilter object
 		String[] files = file.list(new FilenameFilter() {			
 			@Override
 			public boolean accept(File dir, String name) {
