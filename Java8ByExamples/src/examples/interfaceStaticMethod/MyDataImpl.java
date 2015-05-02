@@ -15,6 +15,8 @@ public class MyDataImpl implements MyData {
         obj.isNull("abc");
         // 1. What will print ?
         // 2. What will print if you overwrite print in this class
-        // 3. What will print if isNull is removed from MyData interface
+        // 3. What will print if isNull is removed from MyData interface ? 
+        // 4. What will print if isNull is removed from MyDataImp class ? 
+        // 5. What if we add @Override annotation to the isNull() method ?
     }
 }
