@@ -13,6 +13,8 @@ public class MyDataImpl implements MyData {
         MyDataImpl obj = new MyDataImpl();
         obj.print("");
         obj.isNull("abc");
-        // What will print ?         
+        // 1. What will print ?
+        // 2. What will print if you overwrite print in this class
+        // 3. What will print if isNull is removed from MyData interface
     }
 }
